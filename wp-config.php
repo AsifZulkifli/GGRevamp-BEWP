@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ggrevamp' );
+define( 'DB_NAME', 'ggrevamp-bewp' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'OYB=raaN?WYm5)ChOI[QTQCKbx,YRMBL|#FJw;0C=r:sO6nQ86k|6n9-&J/zP)p3' );
-define( 'SECURE_AUTH_KEY',  'e9C$$Q*MO?hjFB/E^eYH$JJS$3TP!xku[WWQ*&~g,NRlHoy#$r{I8($lGGO>aLrX' );
-define( 'LOGGED_IN_KEY',    '_kA_Hi r -)N+$yhm`upcv.lZO@wA@w /5Fr&cf!eF#O-v8/;)_DhYdnT7f*sT!^' );
-define( 'NONCE_KEY',        'A#:GF`5t:N$;<S~D@qr!@c#ObYHtnq#?Ru=Pc*mrv1Wl(bk/<$8C6Bp7akOi8s.Z' );
-define( 'AUTH_SALT',        'N k@34* 4kvXUw%V39}Cm^!S<or7,8:X7/9zegVb:3/:0f6h$02zZ-y_]Nx%:Nn;' );
-define( 'SECURE_AUTH_SALT', '}szvYRrVxs:RFov2`Q`lEd%R:lmwq?cuqL*%dKJH(j:RUY1/jNeMt{,IqJXFq&ME' );
-define( 'LOGGED_IN_SALT',   '}}w_rMQ4>n]lIY RER|oxtr8>`9okPa~wyu10%vp>l|L`nj(:8fFR-<zUlL90opc' );
-define( 'NONCE_SALT',       '6$siEoq e_D~<.pqyyN~&Q[qNlCMJjkCdjZK[EuWwxULMdhxCB~J`!&4N||oU%Rr' );
+define( 'AUTH_KEY',         'T|^XFoUMGzGdD[BI8)2i2LSNq!%7hY%ZGT]<L ;(d@BrDuYxp{V;x5fdnhA;5l$*' );
+define( 'SECURE_AUTH_KEY',  'Ja #O@.qE;voUaT7l$5YwA.@c#tHIy+e^BTPFzqKupu%R[.->n|90}H%J@$Js,2R' );
+define( 'LOGGED_IN_KEY',    '.Lw5`bKKKsCD{6O,Kq[2B(BI[:H}z:!a~$r@J(!O!6TZ(Ug ,h/g.>n#[V%XI#I^' );
+define( 'NONCE_KEY',        'F}!2qe)(tXZKU+UW;xs-WnAR3_a8Gb#<(eWu4N2v!E*3E)1{ubR/s`22{jCIi<RK' );
+define( 'AUTH_SALT',        '5Y&KTCm}aQi5}<Ydb21gK-i#t)lwKQ3T.:t}Ku?27q]2A/MFVG~2FC/X:. >D&xP' );
+define( 'SECURE_AUTH_SALT', 'nKU2K+#(w g`Sx,I~/*rhr)C!)s eK@`u+@wnA/(;<b.3h|Thu0AD=u*7j.2l<vu' );
+define( 'LOGGED_IN_SALT',   'Eu3E^^)0}9PY0sTR`<K<sWCM4iTGn7|_@{::+W(h/FyVa^Wl?_]_WG,}(=T[Bmp0' );
+define( 'NONCE_SALT',       '*}4v)mUg$0DsA!of_Z}E3mvPcXrY;`/U9j=+QMEl&q~hi7 !(@1MJbQP+3,]73~O' );
 
 /**#@-*/
 
@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       '6$siEoq e_D~<.pqyyN~&Q[qNlCMJjkCdjZK[EuWwxULMdhxCB~
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'wp_ggrevamp';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
